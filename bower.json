@@ -1,0 +1,18 @@
+{
+  "name": "starterApp",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.4.9",
+    "angular-animate": "1.4.9",
+    "angular-bootstrap": "0.14.3",
+    "angular-cookies": "1.4.9",
+    "angular-loading-bar": "0.8.0",
+    "angular-resource": "1.4.9",
+    "angular-sanitize": "1.4.9",
+    "angular-toastr": "1.4.1",
+    "ui-router": "0.2.15",
+    "pb-design-system": "2.6.0",
+    "jquery": "2.1.0"
+  },
+  "devDependencies": {}
+}
