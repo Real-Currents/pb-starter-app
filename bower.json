@@ -11,7 +11,7 @@
     "angular-sanitize": "1.4.9",
     "angular-toastr": "1.4.1",
     "ui-router": "0.2.15",
-    "pb-design-system": "2.6.0",
+    "pb-design-system": "https://github.com/PBGUX/bower-designsystem.git#v3.0",
     "jquery": "2.1.0"
   },
   "devDependencies": {}
