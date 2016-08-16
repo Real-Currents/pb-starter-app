@@ -36,20 +36,18 @@
 
   <!-- <header pbds-header pbds-header-shadow ng-if="app.showHeader"></header> -->
   <!-- header -->
-  <div pb-ds-header pb-fixed-navbar></div>
+  <div pbds-header pbds-header-shadow></div>
 
   <!-- content -->
   <div ui-view="" class="view-animate site-content"></div>
 
   <!-- FOOTER -->
-  <footer pb-ds-footer></footer>
+  <footer pbds-footer></footer>
 
 
     <!-- build:vendorjs js/vendor.js -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="core/directives/pb-auto-collapse-menu.js"></script>
-    <!-- <script src="bower_components/pb-design-system/dist/js/pb.ds.components.js"></script> -->
 
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
@@ -66,6 +64,8 @@
     <script src="bower_components/angular-toastr/dist/angular-toastr.min.js"></script>
     <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.min.js"></script>
 
+    <script src="bower_components/pb-design-system/dist/js/pb.ds.components.js"></script>
+
 
     <!-- endbuild  -->
 
@@ -78,7 +78,6 @@
     <script src="modules/main/directives/footer.directive.js"></script>
 
     <script src="core/core.module.js"></script>
-    <script src="core/directives/pb-fixed-navbar.directive.js"></script>
     <script src="core/services/mock-data.factory.js"></script>
 
     <!-- Home page module -->

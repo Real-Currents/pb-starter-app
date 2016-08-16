@@ -10,7 +10,8 @@
     'ui.router',
     'angular-loading-bar',
     'toastr',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'pb.ds.components'
   ]);
 
 })();
