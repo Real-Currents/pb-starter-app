@@ -14,8 +14,7 @@ var gulp       = require('gulp'),
   sourcemaps   = require('gulp-sourcemaps'),
   uglify       = require('gulp-uglify'),
   usemin       = require('gulp-usemin'),
-  sass         = require('gulp-sass'),
-  sassdoc      = require('sassdoc');
+  sass         = require('gulp-sass');
 
 
 var sassFiles = './app/assets/sass/**/*.{scss,sass}';
@@ -31,9 +30,6 @@ var sassDistOptions = {
 };
 var autoprefixerOptions = {
   browsers: ['last 2 versions']
-};
-var sassdocOptions = {
-  dest: './app/sassdoc'
 };
 
 gulp.task('sass', function () {
@@ -55,22 +51,6 @@ gulp.task('sass-build', function () {
     .pipe(sourcemaps.write()) // inline sourcemaps
     .pipe(gulp.dest(cssFiles))
     .pipe(gulp.dest(cssBuildFiles));
-});
-
-gulp.task('sass-dist', function () {
-  // var cssfilter = filter('design_system.css', {restore: true})
-  return gulp
-    .src(sassFiles)
-    .pipe(sass(sassDistOptions).on('error', sass.logError))
-    .pipe(autoprefixer(autoprefixerOptions))
-    .pipe(gulp.dest(cssFiles))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(gulp.dest('./dist/css'));
-});
-
-gulp.task('sassdoc', function () {
-  return gulp.src('./app/**/*.scss')
-    .pipe(sassdoc(sassdocOptions));
 });
 
 
@@ -102,8 +82,8 @@ gulp.task('usemin', function() {
 //copy modules
 gulp.task('copy:modules', [], function() {
   gulp.src([
-      './app/modules/**/templates/**',
-      './app/modules/**/assets/images/**/*.*'
+      './app/modules/**/*.*',
+      '!./app/modules/**/*.js'
     ])
     .pipe(gulp.dest('./build/modules'));
 });
@@ -162,7 +142,6 @@ gulp.task('serve-build', [], function() {
 gulp.task('build', [], function() {
   runSequence(
     'sass-build',
-    'sass-dist',
     'usemin',
     'copy:modules',
     'copy:images',
