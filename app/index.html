@@ -34,9 +34,8 @@
 
   <body ng-controller="AppController as app" class="site {{$state.current.data.bodyClass}}">
 
-  <!-- <header pbds-header pbds-header-shadow ng-if="app.showHeader"></header> -->
   <!-- header -->
-  <div pbds-header pbds-header-shadow></div>
+  <header pbds-header pbds-header-shadow></header>
 
   <!-- content -->
   <div ui-view="" class="view-animate site-content"></div>
@@ -65,8 +64,6 @@
     <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.min.js"></script>
 
     <script src="bower_components/pb-design-system/dist/js/pb.ds.components.js"></script>
-
-
     <!-- endbuild  -->
 
     <!-- build:appjs js/app.js -->
