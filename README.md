@@ -25,11 +25,11 @@ To build your app, use `gulp build` then `gulp serve-build` to run the app from 
 * Design System Footer directive
 * Design System Checkbox directive
 * Design System Radio Button directive
-* Build script
-    * Minifies CSS & HTML
-    * Uglifies Javascript
-    * Compiles Sass
-    * Uses Usemin to minimze JS files into vendor and development files
+* Gulp task script
+  * Minifies CSS & HTML
+  * Uglifies Javascript
+  * Compiles Sass
+  * Uses Usemin to minimze JS files into vendor and development files
 * UI router
 * ngResource & ngAnimate
 
