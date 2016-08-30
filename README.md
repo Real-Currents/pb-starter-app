@@ -1,7 +1,7 @@
 ## Info
 Pull this to get a basic start to an Angular 1.4.9 project
 
-Running DS 2.6.0
+Running DS 3.0.0
 
 
 ## Getting Started
@@ -14,8 +14,10 @@ To build your app, use `gulp build` then `gulp serve-build` to run the app from 
 
 
 ##Specs
-Angular        v. 1.4.9
-Design System  v. 2.6.0
+Angular           v. 1.4.9
+Design System     v. 3.0.0
+Angular Bootstrap v. 2.0.0
+bootstrap         v. 3.3.6
 
 ##Includes
 Mock service
