@@ -1,12 +1,12 @@
 # Info
-Pull this to get a basic start to an Angular 1.4.9 project
+Pull this to get a basic start to an Angular 1.4.12 project
 
 Running DS 3.0.0
 
 
 # Getting Started
 
-clone the repo to your machine, then run `npm install` and then `bower install`.
+Clone the repo to your machine, then run `npm install` and then `bower install`.
 
 To run your app locally, use `gulp`.
 
@@ -14,7 +14,7 @@ To build your app, use `gulp build` then `gulp serve-build` to run the app from 
 
 
 ##Specs
-* Angular           v. 1.4.9
+* Angular           v. 1.4.12
 * Design System     v. 3.0.0
 * Angular Bootstrap v. 2.0.0
 * Bootstrap         v. 3.3.6
