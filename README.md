@@ -1,16 +1,16 @@
 # Info
-Pull this to get a basic start to an Angular 1.4.12 project
-
-Running DS 3.0.0
+A quick start for an Angular 1.4.12 project running DS 3.0.0
 
 
 # Getting Started
 
-Clone the repo to your machine, then run `npm install` and then `bower install`.
+Download the Zip file of this repo to your computer. In a Terminal app, switch to the unzipped folder and  run `npm install` and then `bower install`.
 
-To run your app locally, use `gulp`.
+Once the components have been installed, run the app locally any time by typing `gulp` in the terminal while in the app's root directory.
 
-To build your app, use `gulp build` then `gulp serve-build` to run the app from the build folder.
+To build your app, use `gulp build` then `gulp serve-build` to run the app from the build folder. 
+
+The build folder can also be updated to a server.
 
 
 ##Specs
@@ -20,18 +20,21 @@ To build your app, use `gulp build` then `gulp serve-build` to run the app from 
 * Bootstrap         v. 3.3.6
 
 ##Includes
-* Mock service
+* Angular UI-Router routes
+* Sample modules
+* A mock service
+* Index.html with all libraries and CSS files pre-linked
 * Design System Header directive
 * Design System Footer directive
 * Design System Checkbox directive
 * Design System Radio Button directive
-* Gulp task script
-  * Minifies CSS & HTML
-  * Uglifies Javascript
-  * Compiles Sass
-  * Uses Usemin to minimze JS files into vendor and development files
-* UI router
 * ngResource & ngAnimate
+* Gulp task script file including tasks to:
+  * Minify CSS & HTML
+  * Uglify Javascript
+  * Compile Sass
+  * Use usemin to minimze JS files into vendor and development files
+
 
 
 ##Doesn't support
