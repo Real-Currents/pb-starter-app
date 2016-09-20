@@ -2,7 +2,11 @@
 
   'use strict';
 
-  var app = angular.module('app', [ 'pb.core', 'pb.ds.home', 'pb.ds.tables' ]);
+  var app = angular.module('app', [
+    'pb.core',
+    'pb.ds.home',
+    'pb.ds.tables'
+  ]);
 
   // configure debugging
   angular.module('app').config(function($logProvider, config) {
