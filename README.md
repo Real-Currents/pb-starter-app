@@ -1,5 +1,5 @@
 # Info
-A quick start for an Angular 1.4.12 project running DS 3.0.0
+This sample project running PB Design System 3.0.0 has been modified to use the [MX/PB Design](https://bitbucket.org/maponics/mx-pb-design) module which uses Angular 1.5.x
 
 
 # Getting Started
