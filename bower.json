@@ -1,6 +1,6 @@
 {
   "name": "starterApp",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "dependencies": {
     "angular": "1.4.12",
     "angular-animate": "1.4.12",
@@ -11,7 +11,7 @@
     "angular-sanitize": "1.4.12",
     "angular-toastr": "1.7.0",
     "ui-router": "0.2.18",
-    "pb-design-system": "3.0.0",
+    "pb-design-system": "~3.0.0",
     "jquery": "2.2.1"
   },
   "devDependencies": {}
