@@ -2,7 +2,7 @@
   "name": "starterApp",
   "version": "1.0.0",
   "dependencies": {
-    "angular": "git+https://github.com/real-currents/angular.git#real/currents",
+    "mx-pb-design": "git+https://bitbucket.org/maponics/mx-pb-design.git#pb-design-system",
     "angular-bootstrap": "2.0.0",
     "angular-loading-bar": "0.8.0",
     "angular-toastr": "1.7.0",
