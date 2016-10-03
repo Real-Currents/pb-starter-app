@@ -1,6 +1,6 @@
 {
   "name": "starterApp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
     "angular": "1.4.12",
     "angular-animate": "1.4.12",
