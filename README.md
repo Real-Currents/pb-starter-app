@@ -14,7 +14,7 @@ The build folder can also be updated to a server.
 
 
 ##Specs
-* Angular           v. 1.4.12
+* Angular           v. 1.5.6
 * Design System     v. 3.0.0
 * Angular Bootstrap v. 2.0.0
 * Bootstrap         v. 3.3.6
