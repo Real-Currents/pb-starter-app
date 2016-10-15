@@ -1,7 +1,6 @@
 [ {
   "name": "Shipping",
   "description": "Send packages of any size all over the world",
-  "icon": "",
   "image": "assets/images/pb_brand_icons_shipping.svg"
 }, {
   "name": "Save Money",
