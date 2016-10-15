@@ -2,13 +2,16 @@
   "name": "starterApp",
   "version": "1.0.0",
   "dependencies": {
-    "mx-pb-design": "git+https://bitbucket.org/maponics/mx-pb-design.git#pb-design-system",
+    "jquery": "2.2.1",
     "angular-bootstrap": "2.0.0",
     "angular-loading-bar": "0.8.0",
     "angular-toastr": "1.7.0",
     "ui-router": "0.2.18",
-    "pb-design-system": "3.0.0",
-    "jquery": "2.2.1"
+    "mx-design": "git+https://bitbucket.org/maponics/design.git#pb-design-system",
+    "pb-design-system": "3.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "resolutions": {
+    "jquery": "^1.12"
+  }
 }
