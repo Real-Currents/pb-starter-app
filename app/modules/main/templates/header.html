@@ -1,24 +1,28 @@
   <div class="navbar navbar-default custom-navbar" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <button type="button" class="navbar-toggle" data-ng-click="header.isNavCollapsed = !header.isNavCollapsed">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <!-- start navbar-nav left -->
         <a href="http://pb.com" target="_blank" class="pb-header-mark"></a>
-        <a class="navbar-brand brand-text" href="#/">Starter App</a>
+        <a class="navbar-brand brand-text" href="#/" data-ng-click="header.close()">Starter App</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <!--  pb-mobile-menu-close directive allows mobile menu to close when item selected -->
-      <div class="collapse navbar-collapse" id="main-navbar" pb-mobile-menu-close>
+      <!-- pb-mobile-menu-close directive allows mobile menu to close when item selected -->
+      <div class="collapse navbar-collapse" id="main-navbar" 
+           data-pb-mobile-menu-close 
+           data-uib-collapse="!!header.isNavCollapsed">
 
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-left">
+          <!-- start left menus -->
           <li class="divider-vertical hidden-xs"></li>
           <li>
-            <a href="" ui-sref="tables">Tables</a>
+            <a href="" ui-sref="tables" data-ng-click="header.close()">Tables</a>
           </li>
 
           <!-- end left menus -->
@@ -40,19 +44,19 @@
               <span class="visible-xs-inline">
                 <i class="nc-icon-mini ui-2_grid-48"></i>Applications</span>
             </a>
-            <ul class="dropdown-menu" role="menu">
+            <ul class="dropdown-menu" role="menu" style="overflow-y: scroll;">
               <li class="section-head">Your Apps</li>
               <li>
                 <a href="" class="disabled">Product</a>
               </li>
               <li>
-                <a href="">App 2</a>
+                <a href="" data-ng-click="header.close()">App 2</a>
               </li>
               <li>
-                <a href="">App 3</a>
+                <a href="" data-ng-click="header.close()">App 3</a>
               </li>
               <li>
-                <a href="">App 4</a>
+                <a href="" data-ng-click="header.close()">App 4</a>
               </li>
             </ul>
           </li>
@@ -66,43 +70,43 @@
               <span class="visible-xs-inline">
                 <i class="nc-icon-mini ui-2_alert-circle"></i>Help</span>
             </a>
-            <ul class="dropdown-menu" role="menu">
+            <ul class="dropdown-menu" role="menu" style="overflow-y: scroll;">
               <li class="section-head hidden-xs">Help</li>
               <li class="input-group">
                 <input type="text" name="" id="" class="form-control" placeholder="Search">
               </li>
               <li>
-                <a href="">Help</a>
+                <a href="" data-ng-click="header.close()">Help</a>
               </li>
               <li>
-                <a href="">Add Carrier Accounts</a>
+                <a href="" data-ng-click="header.close()">Add Carrier Accounts</a>
               </li>
               <li>
-                <a href="">See All Help Topics</a>
+                <a href="" data-ng-click="header.close()">See All Help Topics</a>
               </li>
               <li role="separator" class="divider"></li>
               <li>
-                <a href="" ng-class="{disabled : patterns.offline}" popover-trigger="mouseenter" uib-popover="{{patterns.chatOfflineMessage}}" popover-placement="left">
+                <a href="" ng-class="{disabled : patterns.offline}" popover-trigger="mouseenter" uib-popover="{{patterns.chatOfflineMessage}}" popover-placement="left" data-ng-click="header.close()">
                   <i class="nc-icon-mini ui-2_chat-round-content"></i>
                   Chat
                   <span ng-if="patterns.offline">Offline</span>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="" data-ng-click="header.close()">
                   <i class="nc-icon-mini ui-1_email-84"></i>
                   Email
                 </a>
               </li>
               <li>
-                <a href="tel:1-800-555-45678" ng-class="{disabled : patterns.offline}" popover-trigger="mouseenter" uib-popover="{{patterns.phoneOfflineMessage}}" popover-placement="left">
+                <a href="tel:1-800-555-45678" ng-class="{disabled : patterns.offline}" popover-trigger="mouseenter" uib-popover="{{patterns.phoneOfflineMessage}}" popover-placement="left" data-ng-click="header.close()">
                   <i class="nc-icon-mini ui-2_phone"></i>
                   1-800-555-45678
                 </a>
               </li>
               <li role="separator" class="divider"></li>
               <li>
-                <a href="">
+                <a href="" data-ng-click="header.close()">
                   <i class="nc-icon-mini arrows-2_square-download"></i>
                   Printer/Scale Drivers</a>
               </li>
@@ -118,35 +122,35 @@
               <span class="visible-xs-inline">
                 <i class="nc-icon-mini ui-1_settings-gear-63"></i>Settings</span>
             </a>
-            <ul class="dropdown-menu" role="menu">
+            <ul class="dropdown-menu" role="menu" style="overflow-y: scroll;">
               <li class="section-head">Application Settings</li>
               <li>
-                <a href="">Carriers</a>
+                <a href="" data-ng-click="header.close()">Carriers</a>
               </li>
               <li>
-                <a href="">Cost Accounts</a>
+                <a href="" data-ng-click="header.close()">Cost Accounts</a>
               </li>
               <li>
-                <a href="">Postage Payment Methods</a>
+                <a href="" data-ng-click="header.close()">Postage Payment Methods</a>
               </li>
               <li>
-                <a href="">Users</a>
+                <a href="" data-ng-click="header.close()">Users</a>
               </li>
               <li class="section-head">Personal Preferences</li>
               <li>
-                <a href="">Label Options</a>
+                <a href="" data-ng-click="header.close()">Label Options</a>
               </li>
               <li>
-                <a href="">Automatic Emails</a>
+                <a href="" data-ng-click="header.close()">Automatic Emails</a>
               </li>
               <li>
-                <a href="">Presets</a>
+                <a href="" data-ng-click="header.close()">Presets</a>
               </li>
               <li>
-                <a href="">Return Label</a>
+                <a href="" data-ng-click="header.close()">Return Label</a>
               </li>
               <li>
-                <a href="">Preferences</a>
+                <a href="" data-ng-click="header.close()">Preferences</a>
               </li>
             </ul>
           </li>
@@ -190,20 +194,20 @@
             </a>
 
             <!-- user drop-menu -->
-            <ul class="dropdown-menu" role="menu">
+            <ul class="dropdown-menu" role="menu" style="overflow-y: scroll;">
               <li>
-                <a href="">Profile<br>
+                <a href="" data-ng-click="header.close()">Profile<br>
                   <span class="menu-text-small">Email, Passwords</span>
                 </a>
               </li>
               <li>
-                <a href="">Your Account<br>
+                <a href="" data-ng-click="header.close()">Your Account<br>
                   <span class="menu-text-small">Financials, Usage, Products, Support</span>
                 </a>
               </li>
               <li role="separator" class="divider"></li>
               <li>
-                <a href="">Sign Out</a>
+                <a href="" data-ng-click="header.close()">Sign Out</a>
               </li>
             </ul>
           </li>
