@@ -1,4 +1,9 @@
-[
+(function() {
+
+  'use strict';
+
+  //app constants
+  angular.module('app').value('menu', [
     {
         "nav-class": "nav navbar-nav",
         "options": [
@@ -47,4 +52,6 @@
             }
         ]
     }
-]
+  ]);
+
+})();
