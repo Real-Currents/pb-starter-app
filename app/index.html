@@ -35,44 +35,41 @@
   <body ng-controller="AppController as app" class="site {{$state.current.data.bodyClass}}">
 
       <!-- header -->
-      <header pbds-header pbds-header-shadow></header>
+      <header data-pbds-header 
+              data-pbds-header-shadow></header>
 
       <!-- content -->
       <div class="view-animate site-content"
-           style="overflow-y: auto;"
-           ui-view=""></div>
+           data-ui-view=""
+           style="overflow-y: auto;"></div>
 
       <!-- FOOTER -->
-      <footer pbds-footer></footer>
+      <footer data-pbds-footer></footer>
 
 
     <!-- build:vendorjs js/vendor.js -->
       <!--Angular, ng modules and jQuery are all
         - included in mx-design, so ignore here
         -->
-      <!--script src="libs/jquery/dist/jquery.min.js"></script-->
-      <!--script src="libs/angular/angular.js"></script-->
-      <!--script src="libs/angular/angular-animate.js"></script-->
-      <!--script src="libs/angular/angular-cookies.js"></script-->
-      <!--script src="libs/angular/angular-resource.js"></script-->
-      <!--script src="libs/angular/angular-sanitize.js"></script-->
+      <!--script src="bower_components/jquery/dist/jquery.min.js"></script-->
+      <!--script src="bower_components/angular/angular.js"></script-->
+      <!--script src="bower_components/angular/angular-animate.js"></script-->
+      <!--script src="bower_components/angular/angular-cookies.js"></script-->
+      <!--script src="bower_components/angular/angular-resource.js"></script-->
+      <!--script src="bower_components/angular/angular-sanitize.js"></script-->
+      <script src="bower_components/maponics-design/mx-design.js"></script>
 
-      <!--Angular UI-Bootstrap and Boostrap are mutually 
-        - exclusive so only include ui-bootstrap below.
-        -->
-      <!--script src="libs/bootstrap/dist/js/bootstrap.js"></script-->
-
-      <script src="bower_components/mx-design/mx-design.js"></script>
-
-      <script src="bower_components/ui-router/release/angular-ui-router.js"></script>
       <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
-
-      <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
-    
-      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 
       <script src="bower_components/angular-toastr/dist/angular-toastr.min.js"></script>
       <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.min.js"></script>
+      
+      <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+      <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+      
+      <!--script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script-->
 
       <script src="bower_components/pb-design-system/dist/js/pb.ds.components.js"></script>
     <!-- endbuild  -->
@@ -81,7 +78,8 @@
       <script src="core/core.module.js"></script>
 
       <script src="modules/main/app.module.js"></script>
-      <script src="modules/main/app.config.js"></script>
+      <script src="modules/main/configurations/app.config.js"></script>
+      <script src="modules/main/configurations/menu.config.js"></script>
       <script src="modules/main/controllers/app.controller.js"></script>
       <script src="modules/main/controllers/header.controller.js"></script>
       <script src="modules/main/directives/header.directive.js"></script>
@@ -103,3 +101,4 @@
   </body>
 
 </html>
+

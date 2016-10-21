@@ -1,24 +1,9 @@
 {
-  "name": "pb-starter-app",
-  "author": "PBGUX & Maponics (White River Junction)",
-  "version": "1.0.0",
-  "homepage": "https://bitbucket.org/maponics/pb-starter-app",
-  "keywords": [
-    "maponics",
-    "pitney bowes"
-  ],
-  "main": "index.html",
+  "name": "starterapp",
+  "version": "1.0.3",
+  "homepage": "https://github.com/PBGUX/starter-app",
+  "author": "GUX",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://bitbucket.org/maponics/pb-starter-app.git"
-  },
-  "scripts": {
-    "prestart": "npm install",
-    "postinstall": "bower install && gulp build",
-    "start": "gulp serve-build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
     "gulp-ng-annotate": "1.1.0",
     "gulp-replace": "0.5.4",

@@ -7,17 +7,23 @@
 
   <div class="row">
     <div class="col-md-4" ng-repeat="item in home.data">
-        <div class="panel panel-default">
-        <div class="panel-body">
+
+      <div class="card card-default category-widget" ng-click="home.open(item)" >
+        <div class="card-body category-widget-icon">
           <img class="img-responsive center-block" ng-src="{{item.image}}">
         </div>
-        <div class="panel-footer">
-          <h3>{{item.name}}</h3>
-          <p>{{item.description}}</p>
-          <a ng-click="home.open(item)" href="">Sign Up</a>
+        <div class="card-footer">
+          <h4 class="category-widget-title">{{item.name}}</h4>
+          <p class="category-widget-description">
+           {{item.description}}
+          </p>
         </div>
       </div>
     </div>
+
+
+
+
 
   </div>
 </div>

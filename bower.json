@@ -1,19 +1,19 @@
 {
-  "name": "starterApp",
-  "version": "1.0.0",
+  "name": "starter-app",
+  "version": "1.0.3",
   "dependencies": {
-    "jquery": "2.2.1",
+    "jquery": "~2.2.1",
     "angular": "git+https://github.com/real-currents/angular.git#real/currents",
     "angular-bootstrap": "2.0.0",
     "angular-loading-bar": "0.8.0",
     "angular-toastr": "1.7.0",
-    "ui-router": "0.2.18",
-    "mx-design": "git+https://bitbucket.org/maponics/design.git#pb-design-system",
-    "pb-design-system": "3.0.0"
+    "angular-ui-router": "^0.3.1",
+    "maponics-design": "git+https://bitbucket.org/maponics/design.git#pb-design-system",
+    "pb-design-system": "~3.0.0"
   },
   "devDependencies": {},
   "resolutions": {
-    "jquery": "2.2.1",
-    "angular": "real/currents"
+    "angular": "real/currents",
+    "jquery": "2.2.1"
   }
 }

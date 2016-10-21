@@ -1,15 +1,17 @@
-[ {
-  "name": "Shipping",
-  "description": "Send packages of any size all over the world",
-  "icon": "",
-  "image": "assets/images/pb_brand_icons_shipping.svg"
-}, {
-  "name": "Save Money",
-  "description": "Track your expenses.",
-  "image": "assets/images/pb_brand_icons_money.svg"
-}, {
-  "name": "Mailing",
-  "description": "Print stamps without going to the Post Office.",
-  "image": "assets/images/pb_brand_icons_mail.svg"
-}
+[
+    {
+      "name": "Shipping",
+      "description": "Send packages of any size all over the world",
+      "image": "assets/images/pb_brand_icons_shipping.svg"
+    }, 
+    {
+      "name": "Save Money",
+      "description": "Track your expenses.",
+      "image": "assets/images/pb_brand_icons_money.svg"
+    }, 
+    {
+      "name": "Mailing",
+      "description": "Print stamps without going to the Post Office.",
+      "image": "assets/images/pb_brand_icons_mail.svg"
+    }
 ]
