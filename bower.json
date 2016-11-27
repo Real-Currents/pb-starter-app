@@ -1,9 +1,9 @@
 {
   "name": "starter-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "dependencies": {
     "jquery": "~2.2.1",
-    "angular": "git+https://github.com/real-currents/angular.git#real/currents",
+    "angular": "git+https://github.com/real-currents/angular.git#1.5.10",
     "angular-bootstrap": "2.0.0",
     "angular-loading-bar": "0.8.0",
     "angular-toastr": "1.7.0",
