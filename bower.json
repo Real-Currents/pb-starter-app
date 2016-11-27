@@ -8,7 +8,8 @@
     "angular-loading-bar": "0.8.0",
     "angular-toastr": "1.7.0",
     "angular-ui-router": "^0.3.1",
-    "pb-design-system": "~3.0.0"
+    "pb-design-system": "~3.0.0",
+    "bootstrap-sass": "^3.3.7"
   },
   "devDependencies": {},
   "resolutions": {
