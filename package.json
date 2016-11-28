@@ -8,6 +8,7 @@
     "grunt": "^1.0.1",
     "grunt-bg-shell": "^2.3.3",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^1.0.1",
     "gulp-ng-annotate": "1.1.0",
     "gulp-replace": "0.5.4",
     "gulp-sass": "2.3.2",
