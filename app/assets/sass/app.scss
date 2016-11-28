@@ -1,11 +1,11 @@
-@import './bootstrapVariables';
+@import './bootstrap_variables';
 @import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
 
-@import './pbVariables';
+@import './pb_variables';
 @import '../../bower_components/pb-design-system/dist/css/design_system';
 @import '../../bower_components/pb-design-system/sass/settings/mixins';
 
-@import 'partial';
+@import '_partial';
 
 header i.nc-icon-outline {
   font-size: 20px;

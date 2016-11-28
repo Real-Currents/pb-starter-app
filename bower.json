@@ -2,18 +2,18 @@
   "name": "starter-app",
   "version": "1.0.4",
   "dependencies": {
-    "jquery": "~2.2.1",
-    "angular": "git+https://github.com/real-currents/angular.git#1.5.10",
+    "angular": "git+https://github.com/real-currents/angular.git#real/currents",
     "angular-bootstrap": "2.0.0",
     "angular-loading-bar": "0.8.0",
     "angular-toastr": "1.7.0",
     "angular-ui-router": "^0.3.1",
+    "jquery": "~2.2.1",
     "pb-design-system": "~3.0.0",
     "bootstrap-sass": "^3.3.7"
   },
   "devDependencies": {},
   "resolutions": {
-    "angular": "real/currents",
+    "angular": "1.5.10",
     "jquery": "2.2.1"
   }
 }
