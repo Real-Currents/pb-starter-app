@@ -6,6 +6,12 @@
     function($log) {
 
       var _this = this;
+
+      _this.model = {
+        checkbox1: false,
+        checkbox2: false
+      }
+
       _this.rowdata = [
         {
           date: '04/15/2016',
