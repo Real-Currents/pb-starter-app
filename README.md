@@ -10,7 +10,7 @@ Once the components have been installed, run the app locally any time by typing 
 
 To build your app, use `gulp build` then `gulp serve-build` to run the app from the build folder. 
 
-The build folder can also be updated to a server.
+The build folder can also be uploaded to a server.
 
 
 ##Specs
