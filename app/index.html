@@ -34,14 +34,9 @@
 
   <body ng-controller="AppController as app" class="site {{$state.current.data.bodyClass}}">
 
-  <!-- header -->
-  <header pbds-header pbds-header-shadow></header>
-
-  <!-- content -->
-  <div ui-view="" class="view-animate site-content"></div>
-
-  <!-- FOOTER -->
-  <footer pbds-footer></footer>
+    <header ui-view="header" pbds-header-shadow></header>
+    <div class="site-content" ui-view="content"></div>
+    <footer ui-view="footer"></footer>
 
 
     <!-- build:vendorjs js/vendor.js -->
@@ -71,8 +66,8 @@
     <script src="modules/main/app-config.js"></script>
     <script src="modules/main/controllers/app.controller.js"></script>
     <script src="modules/main/controllers/header.controller.js"></script>
-    <script src="modules/main/directives/header.directive.js"></script>
-    <script src="modules/main/directives/footer.directive.js"></script>
+    <script src="modules/main/controllers/footer.controller.js"></script>
+
 
     <script src="core/core.module.js"></script>
     <script src="core/services/mock-data.factory.js"></script>

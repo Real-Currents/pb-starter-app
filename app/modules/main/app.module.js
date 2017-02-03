@@ -26,14 +26,8 @@
   });
 
   // UI ROUTER CONFIG
-  angular.module('app').config(function($stateProvider) {
-    $stateProvider.state('otherwise', {
-      url : '*path',
-      template : '',
-      controller : function($state) {
-        $state.go('home');
-      }
-    });
+  angular.module('app').config(function ($urlRouterProvider) {
+    $urlRouterProvider.otherwise('/home');
   });
 
   angular.module('app').run(
