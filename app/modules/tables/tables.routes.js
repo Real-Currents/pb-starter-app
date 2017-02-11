@@ -1,8 +1,8 @@
-(function() {
+(function () {
 
   'use strict';
 
-  angular.module('pb.ds.tables').config(function($stateProvider) {
+  angular.module('pb.ds.tables').config(function ($stateProvider) {
     $stateProvider.state('tables', {
       url: '/tables',
       data: {
@@ -17,7 +17,7 @@
         },
         'content': {
           controller: 'TablesController as tables',
-          templateUrl: 'modules/tables/tables.html',
+          templateUrl: 'modules/tables/tables.html'
         },
         'footer': {
           controller: 'FooterController as footer',

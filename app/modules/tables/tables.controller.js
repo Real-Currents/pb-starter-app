@@ -1,16 +1,16 @@
-(function() {
+(function () {
 
   'use strict';
 
   angular.module('pb.ds.tables').controller('TablesController',
-    function($log) {
+    function ($log) {
 
       var _this = this;
 
       _this.model = {
         checkbox1: false,
         checkbox2: false
-      }
+      };
 
       _this.rowdata = [
         {
@@ -30,7 +30,7 @@
           tracking: 'JJHSK980802K',
           status: 'In transit',
           amount: '$18.90'
-        },{
+        }, {
           date: '04/15/2016',
           recipient: 'Rich Drew',
           carrier: 'UPS',
@@ -42,6 +42,6 @@
       ];
 
 
-  });
+    });
 
 })();

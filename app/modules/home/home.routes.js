@@ -1,13 +1,13 @@
-(function() {
+(function () {
 
   'use strict';
 
-  angular.module('pb.ds.home').config(function($stateProvider) {
+  angular.module('pb.ds.home').config(function ($stateProvider) {
     $stateProvider.state('home', {
       url: '/home',
       resolve: {
-        MockData: function(MockDataFactory) {
-          return MockDataFactory.query({filename:'data'});
+        MockData: function (MockDataFactory) {
+          return MockDataFactory.query({ filename: 'data' });
         }
       },
       data: {
@@ -22,7 +22,7 @@
         },
         'content': {
           controller: 'HomeController as home',
-          templateUrl: 'modules/home/templates/home.html',
+          templateUrl: 'modules/home/templates/home.html'
         },
         'footer': {
           controller: 'FooterController as footer',

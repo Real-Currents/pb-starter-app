@@ -1,8 +1,8 @@
-(function() {
+(function () {
 
   'use strict';
 
-  angular.module('app').controller('HeaderController', function($log) {
+  angular.module('app').controller('HeaderController', function ($log) {
 
 
   });
