@@ -6,8 +6,10 @@
 //   color: $pb-blue-500;
 // }
 
+// import scss partials from modules folder here
+@import '../../modules/tables/assets/sass/tables';
+@import '../../modules/home/assets/sass/home';
 
-@import 'partial';
 
 header i.nc-icon-outline {
   font-size: 20px;
