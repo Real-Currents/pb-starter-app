@@ -11,7 +11,7 @@
     "angular-sanitize": "1.5.11",
     "angular-toastr": "2.1.1",
     "ui-router": "0.2.18",
-    "pb-design-system": "~3.1.0",
+    "pb-design-system": "~3.2.0",
     "jquery": "2.2.1"
   },
   "devDependencies": {},
