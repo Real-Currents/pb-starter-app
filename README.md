@@ -1,5 +1,5 @@
 # Info
-This sample project running PB Design System 3.0.0 has been modified to use the [MX/PB Design](https://bitbucket.org/maponics/design) module which uses Angular 1.5.x
+This sample project running PB Design System 3.0.0 has been modified to use the [MX Design](https://bitbucket.org/maponics/design) module which uses Angular 1.5.x
 
 
 # Getting Started
