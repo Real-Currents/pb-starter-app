@@ -1,5 +1,5 @@
 # Info
-This sample project running PB Design System 3.0.0 has been modified to use the [MX Design](https://bitbucket.org/maponics/design) module which uses Angular 1.5.x
+A quick start for an Angular 1.5.10 project running DS 3.0.0
 
 
 # Getting Started
@@ -8,13 +8,13 @@ Download the Zip file of this repo to your computer. In a Terminal app, switch t
 
 Once the components have been installed, run the app locally any time by typing `gulp` in the terminal while in the app's root directory.
 
-To build your app, use `gulp build` then `gulp serve-build` to run the app from the build folder. 
+To build your app, use `gulp build` then `gulp serve-build` to run the app from the build folder.
 
 The build folder can also be updated to a server.
 
 
 ##Specs
-* Angular           v. 1.5.6
+* Angular           v. 1.5.10
 * Design System     v. 3.0.0
 * Angular Bootstrap v. 2.0.0
 * Bootstrap         v. 3.3.6

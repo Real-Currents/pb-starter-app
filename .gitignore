@@ -1,10 +1,10 @@
 app/bower_components
-.sass-cache
+bin
+build
 node_modules
 .DS_Store
-.tmp
 npm-debug.log
 scss-lint.log
 .idea
-build
-/bin/
+.sass-cache
+.tmp
