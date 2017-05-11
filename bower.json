@@ -1,6 +1,8 @@
 {
   "name": "starter-app",
   "version": "1.0.3",
+  "name": "starterApp",
+  "version": "1.0.4",
   "dependencies": {
     "jquery": "~2.2.1",
     "angular": "git+https://github.com/real-currents/angular.git#real/currents",
