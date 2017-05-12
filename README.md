@@ -1,5 +1,5 @@
 # Info
-A quick start for an Angular 1.4.12 project running DS 3.1.0
+A quick start for an Angular 1.5.11 project running DS 3.1.0
 
 
 # Getting Started
@@ -8,13 +8,13 @@ Download the Zip file of this repo to your computer. In a Terminal app, switch t
 
 Once the components have been installed, run the app locally any time by typing `gulp` in the terminal while in the app's root directory.
 
-To build your app, use `gulp build` then `gulp serve-build` to run the app from the build folder. 
+To build your app, use `gulp build` then `gulp serve-build` to run the app from the build folder.
 
 The build folder can also be uploaded to a server.
 
 
 ##Specs
-* Angular           v. 1.4.12
+* Angular           v. 1.5.11
 * Design System     v. 3.1.0
 * Angular Bootstrap v. 2.2.0
 * Bootstrap         v. 3.3.7
