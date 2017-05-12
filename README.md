@@ -13,13 +13,13 @@ To build your app, use `gulp build` then `gulp serve-build` to run the app from 
 The build folder can also be uploaded to a server.
 
 
-##Specs
+## Specs
 * Angular           v. 1.5.11
 * Design System     v. 3.1.0
 * Angular Bootstrap v. 2.2.0
 * Bootstrap         v. 3.3.7
 
-##Includes
+## Includes
 * Angular UI-Router routes
 * Sample modules
 * A mock service
@@ -37,5 +37,5 @@ The build folder can also be uploaded to a server.
 
 
 
-##Doesn't support
+## Doesn't support
 * Node server calls
