@@ -1,10 +1,10 @@
-(function() {
+(function () {
 
   'use strict';
 
   angular.module('app').controller('HeaderController', function($log, $scope, $window) {
     var menu = this;
-    
+
     this.isNavCollapsed = true;
     this.isCollapsed = false;
     this.isCollapsedHorizontal = false;

@@ -1,8 +1,8 @@
-(function() {
+(function () {
 
   'use strict';
 
-  //app constants
+  // app constants
   angular.module('app').constant('config', {
     debug: true
   });

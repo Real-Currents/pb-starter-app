@@ -1,5 +1,9 @@
 # Info
+<<<<<<< HEAD
 A quick start for an Angular 1.5.10 project running DS 3.0.0
+=======
+A quick start for an Angular 1.5.11 project running DS 3.1.0
+>>>>>>> upstream-angular-1.5.x
 
 
 # Getting Started
@@ -10,14 +14,21 @@ Once the components have been installed, run the app locally any time by typing 
 
 To build your app, use `gulp build` then `gulp serve-build` to run the app from the build folder.
 
-The build folder can also be updated to a server.
+The build folder can also be uploaded to a server.
 
 
 ##Specs
+<<<<<<< HEAD
 * Angular           v. 1.5.10
 * Design System     v. 3.0.0
 * Angular Bootstrap v. 2.0.0
 * Bootstrap         v. 3.3.6
+=======
+* Angular           v. 1.5.11
+* Design System     v. 3.1.0
+* Angular Bootstrap v. 2.2.0
+* Bootstrap         v. 3.3.7
+>>>>>>> upstream-angular-1.5.x
 
 ##Includes
 * Angular UI-Router routes
