@@ -120,11 +120,27 @@ gulp.task('copy:images', [], function() {
 
 // browser-sync task for starting the server.
 gulp.task('browser-sync', function() {
-  browserSync.init({
-    server: {
-      baseDir: './app'
-    }
-  });
+    browserSync.init({
+        server: {
+          baseDir: './app'
+        }
+    });
+    gulp.watch("app/assets/scss/*.scss", ['sass-build'])
+        .on('change', browserSync.reload);
+    gulp.watch("app/assets/images/**/*")
+        .on('change', browserSync.reload);
+    gulp.watch("app/core/data/*.json")
+        .on('change', browserSync.reload);
+    gulp.watch("app/core/**/*.js")
+        .on('change', browserSync.reload);
+    gulp.watch("app/**/assets/images/*")
+        .on('change', browserSync.reload);
+    gulp.watch("app/modules/*.js")
+        .on('change', browserSync.reload);
+    gulp.watch("app/modules/**/*.js")
+        .on('change', browserSync.reload);
+    gulp.watch("app/*.html")
+        .on('change', browserSync.reload);
 });
 
 
