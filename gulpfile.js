@@ -125,7 +125,7 @@ gulp.task('browser-sync', function() {
           baseDir: './app'
         }
     });
-    gulp.watch("app/assets/scss/*.scss", ['sass-build'])
+    gulp.watch("app/assets/sass/*.scss", ['sass-build'])
         .on('change', browserSync.reload);
     gulp.watch("app/assets/images/**/*")
         .on('change', browserSync.reload);

@@ -12,7 +12,8 @@
     "angular-toastr": "2.1.1",
     "ui-router": "0.2.18",
     "pb-design-system": "~3.2.0",
-    "jquery": "2.2.1"
+    "jquery": "2.2.1",
+    "bootstrap-sass": "^3.3.7"
   },
   "devDependencies": {},
   "resolutions": {
