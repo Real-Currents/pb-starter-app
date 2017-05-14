@@ -135,9 +135,11 @@ gulp.task('browser-sync', function() {
         .on('change', browserSync.reload);
     gulp.watch("app/**/assets/images/*")
         .on('change', browserSync.reload);
-    gulp.watch("app/modules/*.js")
-        .on('change', browserSync.reload);
     gulp.watch("app/modules/**/*.js")
+        .on('change', browserSync.reload);
+    gulp.watch("app/modules/**/**/*.js")
+        .on('change', browserSync.reload);
+    gulp.watch("app/modules/**/**/*.html")
         .on('change', browserSync.reload);
     gulp.watch("app/*.html")
         .on('change', browserSync.reload);
