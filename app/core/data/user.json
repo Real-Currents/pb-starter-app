@@ -1,12 +1,13 @@
 {
     "guid": 1149,
-    "first_name": "John",
-    "last_name": "Hall",
+    "firstName": "John",
+    "lastName": "Hall",
     "role": "Admin",
     "organization": "Pitney Bowes",
     "email": "john.hall@pb.com",
     "phone": "8023591421",
     "join_date": "01 JULY, 2016",
     "created": 1436317596,
-    "modified": 1476827324
+    "modified": 1476827324,
+    "userName": "JO088HA"
 }

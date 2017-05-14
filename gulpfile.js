@@ -50,7 +50,8 @@ gulp.task('sass-build', function () {
     .pipe(autoprefixer(autoprefixerOptions))
     .pipe(sourcemaps.write()) // inline sourcemaps
     .pipe(gulp.dest(cssFiles))
-    .pipe(gulp.dest(cssBuildFiles));
+    .pipe(gulp.dest(cssBuildFiles))
+    .pipe(broswerSync.stream());
 });
 
 
@@ -122,11 +123,11 @@ gulp.task('copy:images', [], function() {
 gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
-          baseDir: './app'
+          baseDir: './app',
+          port: process.env.PORT || 8080
         }
     });
-    gulp.watch("app/assets/sass/*.scss", ['sass-build'])
-        .on('change', browserSync.reload);
+    gulp.watch("app/assets/sass/*.scss", ['sass-build']);
     gulp.watch("app/assets/images/**/*")
         .on('change', browserSync.reload);
     gulp.watch("app/core/data/*.json")
